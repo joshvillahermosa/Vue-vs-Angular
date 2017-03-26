@@ -2,11 +2,13 @@
   "todo" : [
     {
       "id": 0,
-      "todo" : "Drink Heinekin"
+      "todo" : "Drink Heinekin",
+      "completed": false
     },
     {
       "id": 0,
-      "todo" : "Take a shot of Jamo (yuck)"
+      "todo" : "Take a shot of Jamo (yuck)",
+      "completed": false
     }
   ]
 }
