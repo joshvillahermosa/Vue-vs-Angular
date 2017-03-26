@@ -1,6 +1,6 @@
 # vue-beer-store
 
-> Beer store! (Really just a benchmark app against Angular)
+> Todo Beer Aoo! (Really just a benchmark app against Angular)
 
 ## Build Setup
 

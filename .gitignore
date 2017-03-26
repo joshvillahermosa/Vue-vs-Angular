@@ -9,4 +9,7 @@ vue-beer-store/test/unit/coverage
 vue-beer-store/test/e2e/reports
 vue-beer-store/selenium-debug.log
 
+
+beer-api/node_modules/
+
 angular-beer-store/node_modules
