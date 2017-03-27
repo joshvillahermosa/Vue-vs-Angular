@@ -1,6 +1,11 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from '@/components/Home';
+import TodoView from '@/components/TodoView';
+// import TodoHttpService from '../services/HttpServices';
+
+// const todoTest = new TodoHttpService();
+
+// todoTest.get('todo').then(data => console.log(data.body));
 
 Vue.use(Router);
 
@@ -8,8 +13,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Home',
-      component: Home,
+      name: 'TodoView',
+      component: TodoView,
     },
   ],
 });
