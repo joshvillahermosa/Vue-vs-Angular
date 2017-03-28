@@ -10,6 +10,6 @@ vue-todo/test/e2e/reports
 vue-todo/selenium-debug.log
 
 
-beer-api/node_modules/
+todo-api/node_modules/
 
 angular-beer-store/node_modules
