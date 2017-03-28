@@ -19,4 +19,4 @@ Create a CRUD Todo App in Vue 2 and Angular 2
 1. `cd todo-api` And `npm install`
 1. In `todo-api` folder, run `npm start`
 1. `cd ../vue-todo` And `npm install`
-1. In `vue-todo` folder, run `npm start`
+1. In `vue-todo` folder, run `npm run dev`
