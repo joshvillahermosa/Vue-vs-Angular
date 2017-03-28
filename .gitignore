@@ -1,13 +1,13 @@
 node_modules/
 
-vue-beer-store/.DS_Store
-vue-beer-store/node_modules/
-vue-beer-store/dist/
-vue-beer-store/npm-debug.log
-vue-beer-store/yarn-error.log
-vue-beer-store/test/unit/coverage
-vue-beer-store/test/e2e/reports
-vue-beer-store/selenium-debug.log
+vue-todo/.DS_Store
+vue-todo/node_modules/
+vue-todo/dist/
+vue-todo/npm-debug.log
+vue-todo/yarn-error.log
+vue-todo/test/unit/coverage
+vue-todo/test/e2e/reports
+vue-todo/selenium-debug.log
 
 
 beer-api/node_modules/
