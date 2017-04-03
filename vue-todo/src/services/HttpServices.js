@@ -16,4 +16,9 @@ export default class TodoHttpService {
     const promise = this.http.get(`${this.root}${resource}`);
     return promise;
   }
+
+  post = (resource, item) => {
+    const promise = this.http.post(`${this.root}${resource}`, item);
+    return promise;
+  }
 }

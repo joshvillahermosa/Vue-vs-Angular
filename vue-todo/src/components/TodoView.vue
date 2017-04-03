@@ -1,6 +1,10 @@
 <template>
   <div class="center">
-    <h1>{{ title }}</h1>
+    <h1>{{ listTitle }}</h1>
+
+    <add-todo></add-todo>
+
+    <h2>{{ addTitle }}</h2>
 
     <todo-list :todos="todos"></todo-list>
   </div>
@@ -9,6 +13,7 @@
 <script>
   /* eslint-disable */
   import TodoList from '@/components/shared/TodoList';
+  import AddTodo from '@/components/shared/AddTodo';
   import TodoHttpService from '../services/HttpServices';
 
   const todoApi = new TodoHttpService();
@@ -18,7 +23,7 @@
    */
   export default {
     name: 'TodoView',
-    components: { TodoList },
+    components: { TodoList, AddTodo },
     beforeRouteEnter(to, from, next) {
       todoApi.get('todo').then((data) => {
         next((vm) => {
@@ -29,7 +34,8 @@
     },
     data() {
       return {
-        title: 'Todo Beer App',
+        listTitle: 'Todo Beer App',
+        addTitle: 'Add Some things todo with Alcohol',
         todos: [],
       };
     },
