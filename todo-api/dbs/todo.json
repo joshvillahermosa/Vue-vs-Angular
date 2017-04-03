@@ -1,14 +1,19 @@
 {
-  "todo" : [
-    {
-      "id": 0,
-      "todo" : "Drink Heinekin",
-      "completed": true
-    },
-    {
-      "id": 0,
-      "todo" : "Take a shot of Jamo (yuck)",
-      "completed": false
-    }
-  ]
+    "todo": [
+        {
+            "id": 1491077894579,
+            "todo": "Drink Heinekin",
+            "completed": true
+        },
+        {
+            "id": 1491077879109,
+            "todo": "Take a shot of Jamo (yuck)",
+            "completed": false
+        },
+        {
+            "id": 1491078424643,
+            "todo": "drink johnnyss",
+            "completed": false
+        }
+    ]
 }
