@@ -9,7 +9,7 @@ vue-todo/test/unit/coverage
 vue-todo/test/e2e/reports
 vue-todo/selenium-debug.log
 
-
 todo-api/node_modules/
+todo-api/npm-debug.log
 
 angular-beer-store/node_modules
